@@ -19,7 +19,7 @@ class Functions {
     }
 
     click_botao_busca(){
-        cy.wait(500)
+        cy.wait(1000)
         cy.get('ul[class="list-inline"] > li > a[class="toggle-search"]').click() 
     }
 
